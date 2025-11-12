@@ -113,3 +113,117 @@ const logEntry = {
 console.log(logEntry);
 
 
+
+
+
+//presentation
+
+console.log(typeof user)
+console.log(Number.POSITIVE_INFINITY)
+console.log(Number,MAX_value*2)
+console.log(Number.MIN_value*2)
+
+
+console.log(Number.EPSILON)
+let name="abi";
+console.log(name.length)
+
+let name="abi";
+let l_name="shanth"
+
+x=name.touppercase();
+
+let name=prompt"welcome to uki"
+let l_name=("abishanth")
+
+console.log("hello ,$(name).welcome to uki");
+
+let name="abi";
+ let l_name="shanth"
+console.log(name.charAt(2));
+console.log(l_name.slice(1,4));
+
+console.log(name.includes("gt"));
+console.log(l_name.substring(1,4))
+
+let f_name="shanth"
+console.log(f_name.trimStart());
+
+console.log(f_name.trimend());
+
+let x;
+console.log(Boolean(x));
+
+let y=10;
+console.log(boolean(y));
+
+let c=5;
+console.log(boolean(c == 8));
+
+let d=5;
+console.log(boolean(d !=8));
+
+let e=5;
+let f=10;
+console.log(Boolean(e<f));
+console.log(Boolean(e>f));
+
+let name=true
+if(name){
+    console.log("i am abishanth")
+}
+else{
+    console.log("invalide name")
+}
+
+let num1=15;
+let num2=20;
+if (num1>num2){
+    console.log("correct")
+}
+else{
+    console.log("wrong")
+}
+
+let x1=false;
+let y1=new Boolean(false);
+console.log(x1 == y1)
+console.log(y1 === x1)
+
+
+
+
+
+
+let name = prompt("Enter your name:");
+let percentage = prompt("Enter your percentage:");
+
+let price = prompt("Enter the original price:");
+
+// Convert values
+percentage = Number(percentage);
+price = Number(price);
+
+// Check for null, undefined, or invalid values
+if (!name || isNaN(percentage) || isNaN(price)) {
+  console.log("⚠️ Please enter valid details (name, percentage, price).");
+} else 
+  // Convert name to uppercase
+  name = name.toUpperCase();
+
+  // Calculate discount and final price
+  let discountAmount = (price * percentage) / 100;
+  let finalPrice = price - discountAmount;
+
+  // Determine rating/status (optional)
+  let status = percentage >= 50 ? "Big Saver 💰" : "Small Saver 🛍️";
+
+
+console.log("🧾 --- RECEIPT ---");
+ console.log("NAME: " + name);
+ console.log("DISCOUNT: " + percentage + "%");
+  console.log("ORIGINAL PRICE: LKR" + price);
+   console.log("DISCOUNT AMOUNT: LKR" + discountAmount.toFixed(2));
+  console.log("FINAL PRICE: LKR" + finalPrice.toFixed(2));
+  console.log("STATUS: " + status);
+  console.log("-------------------");
